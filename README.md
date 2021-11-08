@@ -1,42 +1,38 @@
-#  Dashboard do Recursos Humanos DATAB
- 
+#  Seteor Financeiro Variação do Dólar
+![departamento-financeiro-entenda-funcionamento-do-setor](https://user-images.githubusercontent.com/82332461/140791191-560d8eb0-1730-4840-aca9-a503a1014587.jpg)
  
 
 # Sobre
-O setor de recursos humanos da empresa precisa melhorar a forma de analisar os dados gerais dos colaboradores, como admissões, demissões, folha salarial, headcount, salário médio e absenteísmo.
-Os dados foram fornecidos pelo rh da empresa DATAB.
-
-
-Resumo das aplicações:
-
-• Importação de dados
-
-• Criar medidas usando as funções DATESBETWEEN, BLANK, AVERAGE, MAX, USERELATIONSHI, COUNTROWS, CALCULATE e SUM
-
-• Criar gráficos de diferentes formatos para cada análise necessária
-
-• Criar filtros/segmentadores de dados
-
-• Formatar gráficos
-
-• Formatar a página do relatório
-
-• Usar o painel de filtros
-
+Os setores financeiro e produção precisam de um relatório integrado para avaliar a variação do dólar no passado, presente e futuro para possibilitar a criação de cenários e análises e estudar alterações de estratégias para garantir que o Lucro Bruto da empresa fique equilibrado com a meta. Você foi convidado para participar desse projeto desenvolvendo um relatório atrelado ao dólar e aplicando um processo que o último dólar seja alterado pelo usuário em um intervalo percentual de -50% a +50% para analisar os diferentes cenários.
 
 
 ## O projeto deve possibilitar uma análise dos indicadores abaixo:
 
-| Quantidade de admissões | Contar o número de funcionários contratados |
+
+| Custo (USD) | Custo total do planejamento em dólar |
 | --------------------- | ------------------------------------------- |
-| Quantidade de desligamentos | Contar o número de funcionários demitidos |
-| Quantidade de admissões acumuladas | Quantidade de admissões desde o início da empresa até o momento |
-| Quantidade de demissões acumuladas | Quantidade de demissões desde o início da empresa até o momento |
-| Headcount | Quantidade de funcionário ativos na empresa |
-| Salário Médio | Média salarial dos funcionários |
-| Avaliação Média | Média da avaliação da performance dos funcionários |
-| Absenteísmo Médio | Quantos dias em média um funcionário se ausentou |
-| Folha Salarial | Soma total da folha de pagamento apenas dos funcionários ativos no momento |
+| Data da Última Cotação | Data mais recente com cotação do dólar |
+| Última Cotação do Dólar | Dólar da data mais recente |
+| Custo Real (BRL) | Custo total do planejamento realizado(antes da data de hoje) em reais |
+| Custo Futuro (BRL) | Custo total do planejamento futuro(depois da data de hoje) em reais |
+| Custo Real + Futuro (BRL) | Somatória do Custo Real e Custo Futuro | 
+| Receita (BRL) | Total de vendas em reais |
+| % Lucro Bruto | Custo Real em reais dividido pela Receita em reais |
+
+## Visualizações:
+
+• Implantar um segmentador de dados capaz de alterar a projeção do dólar no futuro
+
+• Criar um gráfico de linha que compara o custo real + futuro e a receita por mês/ano
+
+• Criar um gráfico de colunas que compara receita e custo real + futuro por ano
+
+• Criar uma tabela com o Custo Futuro Previsto por Grupo e Produto
+
+• Criar cartões resumindo as medidas criadas de totalização de custos acima
+
+• Informar a data da última cotação do dólar no relatório
+
 
 
 # Dashboard
@@ -44,22 +40,7 @@ Resumo das aplicações:
 - Página 01
 
 
-![slide01](https://user-images.githubusercontent.com/82332461/140164026-31b44ffc-b8c6-4595-a83b-2614c8a2818c.png)
-
-
-- Página 02
-
-![slide02](https://user-images.githubusercontent.com/82332461/140164082-a39c0776-4ba1-4342-8b96-271259ed86bc.png)
-
-
-- Página 03
-
-![slide 03](https://user-images.githubusercontent.com/82332461/140164113-a36d17e7-1909-42fe-a8a1-989f90e9c9c8.png)
-
-- Página 04
-
-![slide04](https://user-images.githubusercontent.com/82332461/140164130-44ca8e88-9474-4e0e-8d81-e41afd5b497d.png)
-
+![dolar](https://user-images.githubusercontent.com/82332461/140791982-46709f11-f405-4943-8493-0e057174cf4d.png)
 
 
 
@@ -68,5 +49,8 @@ Resumo das aplicações:
 O vídeo foi feito direto do link que o Power BI disponibiliza para contas free para publicação web. O vídeo serve para mostrar um pouco da interação do dashboard.
 
 
-https://user-images.githubusercontent.com/82332461/140164987-bd9a8226-e721-4e87-b455-092ee3e01cc7.mp4
+
+https://user-images.githubusercontent.com/82332461/140792039-4ce0075f-1f91-4d3b-9877-15344cc61d00.mp4
+
+
 
